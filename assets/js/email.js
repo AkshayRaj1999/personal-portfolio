@@ -1,13 +1,16 @@
 (function () {
-  emailjs.init(process.env.API_KEY);
+  emailjs.init({
+    publicKey: "KNXCjnJ3Cen11E9-d",
+  });
 })();
 
 document
   .getElementById("subscription-form")
   .addEventListener("submit", function (event) {
-    event.preventDefault(); 
+    event.preventDefault();
 
-    const email = document.getElementById("email").value;
+    const email = document.getElementById("subscribe-email").value;
+    console.log(email);
     const message = document.getElementById("message");
 
     if (validateEmail(email)) {

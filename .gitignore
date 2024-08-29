@@ -1,6 +1,10 @@
 # Ignore environment variables file
-.env
+/.env
 
 # Ignore other sensitive or build files
 node_modules/
 dist/
+y/
+.firebase/
+/firebase.json
+/.firebaserc
