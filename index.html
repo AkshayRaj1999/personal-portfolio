@@ -816,16 +816,19 @@
                 <h6>Don’t miss out on our updates!</h6>
                 <h4>Subscribe to our newsletter</h4>
                 <div class="subscribe-form">
-                  <form action="#">
+                  <form id="subscription-form">
                     <input
+                      id="email"
                       type="email"
                       placeholder="Enter your email address"
+                      required
                     />
                     <button class="primary-btn" type="submit">
                       Subscribe
                       <span><i class="ri-arrow-right-up-line"></i></span>
                     </button>
                   </form>
+                  <p id="message"></p>
                 </div>
                 <ul class="hero-social-2">
                   <li>
@@ -923,6 +926,10 @@
     </div>
 
     <!-- javascript files -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
     <script src="assets/js/jquery-2.2.4.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/font-awesome.js"></script>

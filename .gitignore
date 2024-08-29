@@ -1,0 +1,6 @@
+# Ignore environment variables file
+.env
+
+# Ignore other sensitive or build files
+node_modules/
+dist/
