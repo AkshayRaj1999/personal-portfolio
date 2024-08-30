@@ -8,3 +8,4 @@ y/
 .firebase/
 /firebase.json
 /.firebaserc
+/.vscode

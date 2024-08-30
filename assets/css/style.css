@@ -201,9 +201,6 @@ nav .main-menu li.has-submenu::after {
 .has-submenu::after{
   content: unset !important;
 }
-.has-submenu-about::after {
-  content: unset !important;
-}
 
 @media (min-width: 768px) and (max-width: 991.98px) {
   nav .main-menu li.has-submenu::after {
